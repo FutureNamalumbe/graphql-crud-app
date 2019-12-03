@@ -1,0 +1,22 @@
+{
+  "name": "graphql-crud-app",
+  "version": "1.0.0",
+  "description": "simple graphql mern stack crud application",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon -r esm src",
+    "start": "node -r esm src",
+    "client": "npm start --prefix ../client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Future Namalumbe",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.9.12",
+    "concurrently": "^5.0.0",
+    "esm": "^3.2.25",
+    "graphql": "^14.5.8",
+    "graphql-iso-date": "^3.6.1",
+    "mkdirp": "^0.5.1"
+  }
+}
