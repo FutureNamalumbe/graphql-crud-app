@@ -7,9 +7,9 @@
 ```bash
 # Install dependencies (server & client)
 
-cd into the client directory then run `npm install`
+cd into the client's root directory then run `npm install`
 
-cd into the server directory then run `npm install`
+cd into the server's root directory then run `npm install`
 
 # Run server & client (:3000 & :5000)
 in the server's root directory run `npm run dev`
